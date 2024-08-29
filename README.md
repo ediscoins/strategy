@@ -66,7 +66,7 @@ Cryptocurrency trading involves significant risk. This strategy, while optimized
 
 ## License
 
-This strategy is provided under [Your License Terms]. See the LICENSE file for more details.
+This strategy is provided under [EdisCoins License Terms]. See the LICENSE file for more details.
 
 ---
 
