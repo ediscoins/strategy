@@ -57,6 +57,17 @@ Ediscoins has demonstrated exceptional performance in live trading:
 - High win rate
 - Effective risk management
 
+## Strategy Robustness
+
+Ediscoins has been meticulously designed to avoid common pitfalls in algorithmic trading:
+
+- **Backtesting Traps**: Our strategy accounts for issues like trade timeouts, slippage, and unrealistic trailing stop behavior in longer timeframes.
+- **Lookahead Bias**: We've carefully structured our code to prevent accidentally "seeing into the future" during backtesting and live trading.
+- **Realistic Performance**: Our results consider factors like spread, unfilled orders, and market dynamics, providing a more accurate representation of live trading performance.
+- **Time-Appropriate Signals**: The strategy uses a 5-minute timeframe for execution while leveraging 1-hour informative timeframes for signal generation, ensuring more realistic backtesting results.
+
+These considerations contribute to the strategy's robust performance in live trading conditions.
+
 ## Future Development
 
 A subscription-based version with continuously updated parameters will be available soon on ediscoins.io.
