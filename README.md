@@ -25,7 +25,8 @@ Welcome to Ediscoins, a sophisticated algorithmic trading strategy for cryptocur
    - Compatible with Windows, macOS, and Linux
 
 2. **File Placement**:
-   - Place `EdisCoins_obf.py` and `EdisCoins.py` in your Freqtrade `strategies` folder
+   - Place `EdisCoins_obf.py` and `EdisCoins.py` in your Freqtrade `strategies` folder (freqtrade/user_data
+/strategies)
    - Ensure `pyarmor_runtime_006349` folder is in the `strategies` folder
    - Put `pair_params.py` in the Freqtrade root folder
 
