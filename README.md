@@ -17,6 +17,7 @@ Welcome to Ediscoins, a sophisticated algorithmic trading strategy for cryptocur
 - Individually optimized trading pairs
 - High win rate in live trading (often exceeding 80%)
 - Adaptive to various market conditions
+- Focused on spot trading and long positions only
 
 ## Setup Instructions
 
@@ -65,6 +66,7 @@ Ediscoins has been meticulously designed to avoid common pitfalls in algorithmic
 - **Lookahead Bias**: We've carefully structured our code to prevent accidentally "seeing into the future" during backtesting and live trading.
 - **Realistic Performance**: Our results consider factors like spread, unfilled orders, and market dynamics, providing a more accurate representation of live trading performance.
 - **Time-Appropriate Signals**: The strategy uses a 5-minute timeframe for execution while leveraging 1-hour informative timeframes for signal generation, ensuring more realistic backtesting results.
+- **Spot Trading Focus**: Ediscoins is designed specifically for spot trading, focusing exclusively on long positions to capitalize on market uptrends.
 
 These considerations contribute to the strategy's robust performance in live trading conditions.
 
